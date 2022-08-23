@@ -6,17 +6,13 @@ const BarraLateral = () => {
   return (
     <div>
         <nav className={S.BarraLateral}>
-            <h1>O que você quer fazer?</h1>
+            <h1>O que você quer fazer?</h1><br />
             <button>            
               <Link className={S.link} to='/Cadastro'>Cadastrar um cliente</Link>
             </button>
             <p>OU</p>
             <button>       
               <Link className={S.link} to='/ListaDeClientes'>Ver lista de clientes</Link>
-            </button>
-            <p>OU</p>
-            <button>
-              <Link className={S.link} to='/DadosCadastrais'>Ver dados do cliente</Link>     
             </button>
         </nav>
     </div>

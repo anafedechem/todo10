@@ -8,11 +8,10 @@ const Header = () => {
     <div className={S.container}>
         <nav>
             {/* navegar para cadastro */}
-            <Link className={S.link} to='/Cadastro'>
-                <img className={S.ShitzuImg} src={shitzu} alt="" />
+            <Link className={S.HomeBtn} to='/'>
+                {/* <img className={S.ShitzuImg} src={shitzu} alt="" /> */}
+                <h1>HOME</h1>
             </Link>
-            {/* navegar para home */}
-            <Link className={S.link} to='/'>Home</Link>
         </nav>
     </div>
   )

@@ -5,21 +5,31 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: lightpink;
+    background-color: #252422;
     overflow-x: hidden;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+.BarraLateral h1 {
+  font-size: 40px;
+  color: #ef476f;
+}
   
-  .BarraLateral button {
-    width: 150px;
-    padding: 10px;
-    text-decoration: none;
-    font-size: medium;
-    color: #818181;
-    background-color: lightgreen;
-    display: block;
-  }
-  
-  .BarraLateral button:hover {
-    color: #f1f1f1;
-  }
+.BarraLateral button, p, .link {
+  padding: 6px;
+  text-decoration: none;
+  font-size: medium;
+  display: block;
+  color: #252422;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.link:hover {
+  color: #ef476f;
+}

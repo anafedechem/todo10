@@ -1,4 +1,22 @@
 .Formulario {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.Formulario button, input {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    color: #ef476f;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffff;
+    font-weight: bold;
+}
+
+.Formulario button:hover {
+    cursor: pointer;
+    color: #252422;
+    background-color: #ef476f;
 }
 
 .Hidden {

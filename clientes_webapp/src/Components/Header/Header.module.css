@@ -1,11 +1,18 @@
 .container {
-    background-color: lightsalmon;
+    background-color: #ef476f;
     width: 100%;
     height: 90px;
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.ShitzuImg{
-    max-height: 100%;
+
+.HomeBtn :hover{
+    color: #252422; 
+}
+
+.HomeBtn{
+    color: #f4f3ee;
+    text-decoration: none;
 }
