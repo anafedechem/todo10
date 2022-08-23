@@ -1,0 +1,11 @@
+.container {
+    background-color: lightsalmon;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.ShitzuImg{
+    max-height: 100%;
+}

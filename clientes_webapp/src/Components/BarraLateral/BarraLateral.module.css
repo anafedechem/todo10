@@ -1,0 +1,25 @@
+.BarraLateral {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightpink;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .BarraLateral button {
+    width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: medium;
+    color: #818181;
+    background-color: lightgreen;
+    display: block;
+  }
+  
+  .BarraLateral button:hover {
+    color: #f1f1f1;
+  }
