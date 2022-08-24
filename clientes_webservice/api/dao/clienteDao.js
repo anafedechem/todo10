@@ -6,7 +6,7 @@ class ClienteDAO {
         this.db = new SQLite3.Database("./clientes.db", (err) => {
             if (err) {
                 console.log("Erro ao criar banco de dados: " + err );
-                exit(1);
+                return;
             }
             this.setup(this.db);
         });
