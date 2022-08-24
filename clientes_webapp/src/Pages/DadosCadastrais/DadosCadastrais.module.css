@@ -1,0 +1,7 @@
+.DadosCadastrais {
+    display: flex;
+    justify-content: center;
+}
+.DadosCadastrais input {
+    min-width: 200px;
+}
